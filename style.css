@@ -8,9 +8,104 @@ body {
   width: 100%;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
+  color: white;
+  background: url("./images/bg-mobile.svg"), #674baf;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100%;
+  padding: 0 3rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #e882e8;
+}
+
+header {
+  padding: 2rem 0;
+}
+
+header a img {
+  width: 150px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+main .mockup-container {
+  width: 100%;
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+main .mockup-container img {
+  width: 100%;
+}
+
+main .content {
+  margin-top: 2.2rem;
+}
+
+main .content h3 {
+  font-size: 1.5rem;
+}
+
+main .content p {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  opacity: .8;
+}
+
+main .content button {
+  width: 200px;
+  height: 40px;
+  font-family: 'Open Sans', sans-serif;
+  border: none;
+  border-radius: 20px;
+  color: #674baf;
+  margin-bottom: 1rem;
+}
+
+footer {
+  display: grid;
+  margin-top: 1rem;
+  place-content: center;
+}
+
+footer .social-icons {
+  order: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  margin-top: .5rem;
+  font-size: .8rem;
+}
+
+.icon-wrapper {
+  width: 30px;
+  height: 30px;
+  margin: 0 .3rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  main .mockup-container {
+    width: 60%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
